@@ -13,7 +13,7 @@ class SubmissionService {
     );
 
     if (response.statusCode != 200) {
-      throw Exception('فشل في إرسال البيانات');
+      throw Exception('فشل في إرسال البيانات ');
     }
   }
 }
